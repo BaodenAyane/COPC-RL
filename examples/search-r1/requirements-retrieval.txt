@@ -1,0 +1,16 @@
+# Separate CPU retrieval environment; Python >= 3.10, torch +cpu wheels supported.
+torch==2.6.0
+faiss-cpu==1.9.0
+numpy==1.26.4
+transformers==4.51.0
+tokenizers==0.21.1
+accelerate==1.6.0
+huggingface-hub==0.31.2
+fastapi==0.115.12
+starlette==0.46.2
+uvicorn==0.34.2
+pydantic==2.10.6
+httpx==0.28.1
+safetensors>=0.4,<1
+# Rollout environment: retrieval_client.py itself only needs aiohttp.
+aiohttp>=3.9,<4

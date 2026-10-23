@@ -1,0 +1,71 @@
+[
+  {
+    "repo": "PeterJinGo/wiki-18-corpus",
+    "kind": "dataset",
+    "revision": "69c1c00ffe7c5554c68d8548355cb22e46aabc51",
+    "files": [
+      [
+        "wiki-18.jsonl.gz",
+        5123307260,
+        "7abd929223399cd63c52b499f289bf4f9039be1e9f8c43e1cb3938305b2317db"
+      ]
+    ],
+    "directory": "downloads/corpus"
+  },
+  {
+    "repo": "PeterJinGo/wiki-18-e5-index-HNSW64",
+    "kind": "dataset",
+    "revision": "94f3f2befbca1120d342b274b21237b86725b18c",
+    "files": [
+      [
+        "part_aa",
+        42949672960,
+        "169b29af7cfa6ae71c0c90fa4f3eb446d47e82958f47ce444c24725d0fdf3752"
+      ],
+      [
+        "part_ab",
+        32706855462,
+        "65e8464eb4253bbd402d1201a199dbdd604b1ae159c57bdbdab68672b430c549"
+      ]
+    ],
+    "directory": "downloads/index_hnsw"
+  },
+  {
+    "repo": "intfloat/e5-base-v2",
+    "kind": "model",
+    "revision": "f52bf8ec8c7124536f0efb74aca902b2995e5bcd",
+    "files": [
+      [
+        "config.json",
+        650,
+        "24b4776266ab6abf7a9d6672f42b77f06ef77b87"
+      ],
+      [
+        "model.safetensors",
+        437955512,
+        "d0d559c47d5f71b1d280b13b62a2657f3e3bc70c0786f9ab91a36545e6a8f693"
+      ],
+      [
+        "special_tokens_map.json",
+        125,
+        "a8b3208c2884c4efb86e49300fdd3dc877220cdf"
+      ],
+      [
+        "tokenizer.json",
+        711396,
+        "688882a79f44442ddc1f60d70334a7ff5df0fb47"
+      ],
+      [
+        "tokenizer_config.json",
+        314,
+        "8046d4d4aff4529a10e0ad47043bdabd6304fb58"
+      ],
+      [
+        "vocab.txt",
+        231508,
+        "fb140275c155a9c7c5a3b3e0e77a9e839594a938"
+      ]
+    ],
+    "directory": "e5-base-v2"
+  }
+]

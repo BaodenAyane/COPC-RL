@@ -1,0 +1,21 @@
+# Modified for COPC.
+accelerate
+blake3
+blobfile
+datasets
+httpx[http2]
+numba
+omegaconf
+pillow
+pylatexenc
+pyyaml
+qwen_vl_utils # for VLM
+ray[default]
+ring_flash_attn
+safetensors
+sglang-router>=0.3.0
+tensorboard
+transformers
+wandb
+xxhash  # disk delta weight sync (checksum + codec)
+zstandard
